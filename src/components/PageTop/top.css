@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anchor-middle {
+    text-align: center;
+}
+
+.avatar {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.first-section > h1 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.hidden-ul {
+    display: none;
+}
+.sign {
+    margin : 0.5rem auto;
+    padding: 0.5rem 1rem;
+    display: block;
+    background-color: rgb(73, 73, 211);
+    color: white;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+.sign:hover {
+    color: black;
+    background-color: white
+}
+    .anchor-middle {
+        text-align: center;
+    }
+.first-section {
+    margin-bottom:2rem;
+}
+.first-section > h1 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.desktop-start-btn {
+    margin: 1rem auto;
+    width: 40vw;
+    height: 3rem;
+    display: block;
+    background-color: rgb(73, 73, 211);
+    color: white;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+.start-btn:active {
+    color: white;
+    background-color: rgb(113, 113, 212);
+}
+.checkmark {
+    display: flex;
+}
+.one {
+    margin:1rem 0 1rem 0;
+}
+.checkmark-p {
+    padding-left: 1rem;
+}
+
+@media (max-width:700px) {
+    .first-section {
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .hour-custom-responsive {
+        display: block;
+        align-items: center;
+    }
+    .checkmark {
+        justify-content: center;
+    }
+    
+}

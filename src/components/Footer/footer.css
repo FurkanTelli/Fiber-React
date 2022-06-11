@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comment-section {
+    margin-top: 1rem;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sarah {
+    border: rgb(196, 193, 193) solid 0.2px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sarah-img {
+    display: flex;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.sarah-text {
+    padding-left: 1.5rem;
+}
+
+.matthew {
+    border: rgb(196, 193, 193) solid 0.2px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.matthew-img {
+    display: flex;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.matthew-text {
+    padding-left: 1.5rem;
+}
+
+.janice {
+    border: rgb(196, 193, 193) solid 0.2px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.janice-img {
+    display: flex;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.janice-text {
+    padding-left: 1.5rem;
+}
+
+@media (max-width:650px) {
+    .comments {
+        display:block;
+    }
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.second-section {
+    padding: 2rem 0 2rem 0;
+}
+
+.hour-custom-responsive {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+
+@media (max-width:700px) {
+    .second-section {
+        text-align: center;
+
+    }
+    .hour-custom-responsive {
+        display: block;
+        padding: 1rem 0;
+    }
+    
+}
